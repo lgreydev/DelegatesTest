@@ -14,6 +14,7 @@
 		5E8CE9572AFF117600C79843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CE9562AFF117600C79843 /* Assets.xcassets */; };
 		5E8CE95A2AFF117600C79843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CE9582AFF117600C79843 /* LaunchScreen.storyboard */; };
 		5E8CE95D2AFF117600C79843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CE95C2AFF117600C79843 /* main.m */; };
+		5E8CE9652AFF1BF600C79843 /* SLPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CE9642AFF1BF600C79843 /* SLPatient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5E8CE9592AFF117600C79843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E8CE95B2AFF117600C79843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E8CE95C2AFF117600C79843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8CE9632AFF1BF600C79843 /* SLPatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLPatient.h; sourceTree = "<group>"; };
+		5E8CE9642AFF1BF600C79843 /* SLPatient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLPatient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				5E8CE9582AFF117600C79843 /* LaunchScreen.storyboard */,
 				5E8CE95B2AFF117600C79843 /* Info.plist */,
 				5E8CE95C2AFF117600C79843 /* main.m */,
+				5E8CE9632AFF1BF600C79843 /* SLPatient.h */,
+				5E8CE9642AFF1BF600C79843 /* SLPatient.m */,
 			);
 			path = DelegatesTest;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8CE9522AFF117200C79843 /* ViewController.m in Sources */,
+				5E8CE9652AFF1BF600C79843 /* SLPatient.m in Sources */,
 				5E8CE94C2AFF117200C79843 /* AppDelegate.m in Sources */,
 				5E8CE95D2AFF117600C79843 /* main.m in Sources */,
 				5E8CE94F2AFF117200C79843 /* SceneDelegate.m in Sources */,
