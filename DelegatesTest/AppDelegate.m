@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SLDoctor.h"
+#import "SLPatient.h"
 
 @interface AppDelegate ()
 
@@ -17,11 +19,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    SLPatient* patient1 = [[SLPatient alloc] init];
+    patient1.name = @"Vova";
+    patient1.temperature = @"36.6";
     
+    SLPatient* patient2 = [[SLPatient alloc] init];
+    patient2.name = @"Petya";
+    patient2.temperature = @"40.2";
     
-
-    
-    
+    SLDoctor* doctor = [[SLDoctor alloc] init];
     
     
     return YES;

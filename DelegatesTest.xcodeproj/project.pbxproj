@@ -15,6 +15,7 @@
 		5E8CE95A2AFF117600C79843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CE9582AFF117600C79843 /* LaunchScreen.storyboard */; };
 		5E8CE95D2AFF117600C79843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CE95C2AFF117600C79843 /* main.m */; };
 		5E8CE9652AFF1BF600C79843 /* SLPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CE9642AFF1BF600C79843 /* SLPatient.m */; };
+		5E8CE9682AFF8EAF00C79843 /* SLDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CE9672AFF8EAF00C79843 /* SLDoctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		5E8CE95C2AFF117600C79843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E8CE9632AFF1BF600C79843 /* SLPatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLPatient.h; sourceTree = "<group>"; };
 		5E8CE9642AFF1BF600C79843 /* SLPatient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLPatient.m; sourceTree = "<group>"; };
+		5E8CE9662AFF8EAF00C79843 /* SLDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDoctor.h; sourceTree = "<group>"; };
+		5E8CE9672AFF8EAF00C79843 /* SLDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDoctor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				5E8CE95C2AFF117600C79843 /* main.m */,
 				5E8CE9632AFF1BF600C79843 /* SLPatient.h */,
 				5E8CE9642AFF1BF600C79843 /* SLPatient.m */,
+				5E8CE9662AFF8EAF00C79843 /* SLDoctor.h */,
+				5E8CE9672AFF8EAF00C79843 /* SLDoctor.m */,
 			);
 			path = DelegatesTest;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				5E8CE9522AFF117200C79843 /* ViewController.m in Sources */,
 				5E8CE9652AFF1BF600C79843 /* SLPatient.m in Sources */,
 				5E8CE94C2AFF117200C79843 /* AppDelegate.m in Sources */,
+				5E8CE9682AFF8EAF00C79843 /* SLDoctor.m in Sources */,
 				5E8CE95D2AFF117600C79843 /* main.m in Sources */,
 				5E8CE94F2AFF117200C79843 /* SceneDelegate.m in Sources */,
 			);
