@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SLPatient : NSObject
 
 @property (strong, nonatomic) NSString* name;
-@property (strong, nonatomic) NSString* temperature;
+@property (assign, nonatomic) CGFloat temperature;
 @property (weak, nonatomic) id <SLPatientDelegate> delegate;
  
 - (BOOL) hawAreYou;

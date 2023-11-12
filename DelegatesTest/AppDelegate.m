@@ -21,11 +21,11 @@
     
     SLPatient* patient1 = [[SLPatient alloc] init];
     patient1.name = @"Vova";
-    patient1.temperature = @"36.6";
+    patient1.temperature = 36.6f;
     
     SLPatient* patient2 = [[SLPatient alloc] init];
     patient2.name = @"Petya";
-    patient2.temperature = @"40.2";
+    patient2.temperature = 40.0f;
     
     SLDoctor* doctor = [[SLDoctor alloc] init];
     

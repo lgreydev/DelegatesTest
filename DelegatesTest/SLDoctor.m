@@ -12,12 +12,21 @@
 
 #pragma mark - SLPatientDelegate
 
-- (void) patientFeelsBad:(SLPatient*_Nonnull) patient {
+- (void) patientFeelsBad:(SLPatient*) patient {
+    NSLog(@"Patient %@ feels bad", patient.name);
+    
+    if (patient.temperature >= 37.f || patient.temperature <= 39.f) {
+        [patient takePill];
+    } else if (patient.temperature > 40.f) {
+        [patient makeShot];
+    } else {
+        NSLog(@"Patient %@ should rest", patient.name);
+    }
     
 }
 
 - (void) patient:(SLPatient*_Nonnull) patient hasQuestion:(NSString*_Nonnull) question {
-    
+    NSLog(@"Patient %@ has a question: %@", patient.name, question);
 }
 
 @end
