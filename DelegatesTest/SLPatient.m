@@ -10,7 +10,14 @@
 @implementation SLPatient
 
 - (BOOL)hawAreYou {
-    return arc4random() % 2;
+    
+    BOOL iFeelGood = arc4random() % 2;
+    
+    if (!iFeelGood) {
+        [self.delegate patientFeelsBad:self];
+    }
+    
+    return iFeelGood;
 }
 
 - (void)takePill {

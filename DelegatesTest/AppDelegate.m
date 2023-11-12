@@ -25,11 +25,28 @@
     
     SLPatient* patient2 = [[SLPatient alloc] init];
     patient2.name = @"Petya";
-    patient2.temperature = 40.0f;
+    patient2.temperature = 37.0f;
+    
+    SLPatient* patient3 = [[SLPatient alloc] init];
+    patient3.name = @"Nik";
+    patient3.temperature = 39.0f;
+    
+    SLPatient* patient4 = [[SLPatient alloc] init];
+    patient4.name = @"Alex";
+    patient4.temperature = 40.0f;
     
     SLDoctor* doctor = [[SLDoctor alloc] init];
     
-
+    patient1.delegate = doctor;
+    patient2.delegate = doctor;
+    patient3.delegate = doctor;
+    patient4.delegate = doctor;
+    
+    [patient1 hawAreYou];
+    [patient2 hawAreYou];
+    [patient3 hawAreYou];
+    [patient4 hawAreYou];
+    
     return YES;
 }
 
