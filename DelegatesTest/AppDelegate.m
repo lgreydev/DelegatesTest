@@ -27,10 +27,9 @@
     patient2.name = @"Petya";
     patient2.temperature = @"40.2";
     
-    SLDoctor* doctor1 = [[SLDoctor alloc] init];
-    SLDoctor* doctor2 = [[SLDoctor alloc] init];
+    SLDoctor* doctor = [[SLDoctor alloc] init];
     
-    
+
     return YES;
 }
 

@@ -6,12 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SLPatient.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-@protocol SLPatientDelegate
-
-@end
 
 @interface SLDoctor : NSObject  <SLPatientDelegate>
 

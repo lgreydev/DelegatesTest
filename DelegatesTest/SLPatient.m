@@ -9,4 +9,16 @@
 
 @implementation SLPatient
 
+- (BOOL)hawAreYou {
+    return arc4random() % 2;
+}
+
+- (void)takePill {
+    NSLog(@"%@ take pill", self.name);
+}
+
+- (void)makeShot {
+    NSLog(@"%@ make shot", self.name);
+}
+
 @end
